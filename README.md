@@ -13,8 +13,7 @@ A vertically scaled chat application utilizing Redis for pub/sub, Docker for con
 - Fastify-Socket.IO for WebSocket support
 
 ## System Design
-<img src="/assets/system.png" width="" />
-<br />
+<img src="/assets/system.png" height="500px" />
 
 ## Pub-Sub
 Publish/Subscribe (Pub/Sub) is a messaging pattern where senders (publishers) send messages without knowing who will receive them, and receivers (subscribers) receive messages without knowing who sent them. This decoupling of publishers and subscribers allows for scalable and flexible communication between distributed systems.
