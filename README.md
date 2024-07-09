@@ -3,12 +3,7 @@
 ## Overview
 A vertically scaled chat application utilizing Redis for pub/sub, Docker for containerization, Caddy Server for reverse proxy and automatic HTTPS, written in TypeScript with Fastify and Fastify-Socket.IO.
 
-
-
-
-
 ## Features
-
 - Real-time chat functionality
 - Scalability using Redis pub/sub
 - Containerized deployment with Docker
@@ -18,6 +13,9 @@ A vertically scaled chat application utilizing Redis for pub/sub, Docker for con
 - Fastify-Socket.IO for WebSocket support
 
 ## System Design
+<img src="/assets/system.png" width="" />
+<br />
+
 ## Pub-Sub
 Publish/Subscribe (Pub/Sub) is a messaging pattern where senders (publishers) send messages without knowing who will receive them, and receivers (subscribers) receive messages without knowing who sent them. This decoupling of publishers and subscribers allows for scalable and flexible communication between distributed systems.
 ### How Pub/Sub is Used in This Application
@@ -79,5 +77,5 @@ For Docker
 
 ## Authors
 
-- [@para-docx](https://www.github.com/para-docx)
+- [para-docx](https://www.github.com/para-docx)
 
